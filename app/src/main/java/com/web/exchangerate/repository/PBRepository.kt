@@ -1,6 +1,5 @@
 package com.web.exchangerate.repository
 
-import com.google.gson.Gson
 import com.web.exchangerate.data.mapper.PBArchiveMapper
 import com.web.exchangerate.data.mapper.PBMapper
 import com.web.exchangerate.data.model.PrivatBankRate

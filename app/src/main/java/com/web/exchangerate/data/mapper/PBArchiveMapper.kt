@@ -1,11 +1,7 @@
 package com.web.exchangerate.data.mapper
 
-import com.web.exchangerate.data.model.MyGson
 import com.web.exchangerate.data.model.PrivatBankRate
-import com.web.exchangerate.data.response.PBResponse
 import com.web.exchangerate.data.response.PbArchiveResponse
-import org.jetbrains.annotations.NotNull
-import java.util.*
 
 /**
  *Created by Yehor Kudimov on 06.01.2021.

@@ -1,7 +1,5 @@
 package com.web.exchangerate.repository
 
-import com.web.exchangerate.repository.NBURepository
-import com.web.exchangerate.repository.PBRepository
 import org.koin.dsl.module
 
 /**
