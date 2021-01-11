@@ -1,0 +1,9 @@
+<resources>
+    <string name="privatBank" >ПриватБанк</string>
+    <string name="NBU" >НБУ</string>
+    <string name="PB" >ПриватБанк</string>
+    <string name="change">Change</string>
+    <string name="currency">Валюта</string>
+    <string name="saleCurrency">Продажа</string>
+    <string name="buyCurrency">Покупка</string>
+</resources>
