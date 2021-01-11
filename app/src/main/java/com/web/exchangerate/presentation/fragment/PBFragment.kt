@@ -32,7 +32,7 @@ class PBFragment : Fragment(), PrivatBankAdapter.Listener {
     private var recyclerView: RecyclerView? = null
     private var textViewDate: TextView? = null
     private var cal = Calendar.getInstance()
-    private lateinit var itemSelector: Selector
+
 
     override fun onCreateView(
         inflater: LayoutInflater,
@@ -53,7 +53,6 @@ class PBFragment : Fragment(), PrivatBankAdapter.Listener {
         recyclerView?.layoutManager =
             LinearLayoutManager(view.context, RecyclerView.VERTICAL, false)
         viewModel.privatBankListLiveData.observe(viewLifecycleOwner, privatObserver)
-        viewModel
         textViewDate = view.findViewById(R.id.textViewDatePrivat)
         textViewDate!!.text = "$mDay-$mMonth-$mYear"
         val dateSetListener = object : DatePickerDialog.OnDateSetListener {
